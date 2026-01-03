@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin: process.env.FRONTEND_URL || ["https://zoyaelegance.onrender.com", "http://localhost:5174"],
+ origin: process.env.FRONTEND_URL || ["https://zoyaelegance.onrender.com", "https://zoyaeleganceadmin.onrender.com"],
  credentials:true
 }))
 
